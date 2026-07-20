@@ -7,14 +7,12 @@ Welcome to my Web Development Projects repository.
 ### Project 1
 - HTML
 - CSS
+- IMAGE
 
-### Upcoming Projects
 - Project 2
-- Project 3
-- Portfolio Website
-- Calculator
-- Landing Page
-- Login Form
+- HTML
+- CSS
+
 
 ## 🚀 Technologies Used
 
