@@ -1,0 +1,121 @@
+body {
+    font-family: cursive;
+    background:radial-gradient(rgb(38, 92, 38),skyblue);
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: sticky;
+    text-align: center;
+    background:linear-gradient( to  left , #8198e1 , rgb(10, 36, 210));
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid rgb(10, 10, 100);
+    top: 0;
+    z-index: 100;
+    font-size: 30px;
+}
+
+.card {
+    background: linear-gradient(to bottom right, #9ac9ff,#fad0c4);
+    background-color: rgb(128, 169, 204);
+    width: 380px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    margin: 50px auto;
+    font-size:small;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 25px;
+}
+
+.pimg {
+    display: block;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    border-radius: 3px solid;
+    width: 110;
+    height: 110;
+
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(14, 128, 48);
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgb(25, 137, 99);
+}
+
+.bio {
+    text-align: center;
+    background: radial-gradient(#dee397,rgb(159, 131, 70)
+    ) ;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    height: 180px;
+}
+
+.stats {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.stat {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    background:linear-gradient( to bottom right , #438d9c , rgb(192, 81, 155));
+    border-radius: 5px;
+}
+
+.left-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    width: 220px;
+}
+
+.buttons-cont {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.button {
+    background:linear-gradient( to bottom right , #438d9c , rgb(192, 81, 155));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+button:focus {
+    outline: none;
+}
